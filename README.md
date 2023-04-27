@@ -1,5 +1,5 @@
 # notes
-An incomplete collection of technical notes.
+And incomplete collection of technical notes.
 
 [Reference Articles](articles.md)
 

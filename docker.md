@@ -22,12 +22,13 @@ docker run
 docker run postgres -e POSTGRES_PASSWORD="123" -e POSTGRES_HOST_AUTH_METHOD="trust" -dp 5432:5433
 
 
+ notes % docker run -p 5432:5433 -t -d --name sql-core postgres -e POSTGRES_USER=postgres -e POSTGRE_PASSWORD=123
 
 
 
 https://stackoverflow.com/questions/58522952/linking-my-django-docker-container-to-a-postgres-container
 - [ ] Docker
-    - [ ] run make migrations and migrate before running or dickering.
+    - [ ] run make migrations and migrate before running or dockering.
     - [ ] Dockerizing 
     - [ ] https://hub.docker.com/r/tzenderman/docker-pyenv
     - [ ] build
